@@ -1,8 +1,8 @@
 #Week_4_.py_PLP
 # Python File Handling and Exception Handling 🖋️🧪🎉
 
-## Challenges
-### File Read & Write Challenge 🖋️
+## Tasks
+### File Read & Write Task 🖋️
 Create a program that reads a file and writes a modified version to a new file.
 
 ### Error Handling Lab 🧪
