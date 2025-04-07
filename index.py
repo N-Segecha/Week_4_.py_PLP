@@ -2,7 +2,7 @@
 def main():
     try:
         # Prompt the user to enter a file name for input
-        input_file = input("Enter the name of the file to read: ")
+        input_file = input("Enter the name of the file to read (e.g., README.md): ")
         print(f"Attempting to read from {input_file}...")
 
         # Attempt to open the user-specified file for reading
@@ -14,7 +14,7 @@ def main():
         modified_content = content.replace('Challenge', 'Task')
 
         # Ask the user for the output file name
-        output_file = input("Enter the name of the output file (e.g., modified_file.txt): ")
+        output_file = input("Enter the name of the output file (e.g., modified_README.md): ")
 
         # Write the modified content to the user-specified output file
         with open(output_file, 'w', encoding='utf-8') as file:
